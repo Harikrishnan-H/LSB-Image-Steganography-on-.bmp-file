@@ -8,12 +8,16 @@ For encoding, first it analyzes the size of the message file to check whether th
 
 For decoding, first the magic string is decoded and checked, if the magic string matches then proceeds further and decodes the secret message. We will get the secret message as output file.
 
-Sample Input    :   For encoding:
-                    ./a.out -e <image.bmp> <secret file.txt or .c or .sh> <steged image name.bmp (optional)>
-                    For decoding:
-                    ./a.out -d <steged image.bmp> <decoded file name.txt or .c or .sh (optional)>
+Sample Input    :  
+For encoding:
+./a.out -e <image.bmp> <secret file.txt or .c or .sh> <steged image name.bmp (optional)>
+  
+For decoding:
+./a.out -d <steged image.bmp> <decoded file name.txt or .c or .sh (optional)>
                     
-Sample Output   :   Encoding:
-                    Data will be encoded in a .bmp file created as ouput
-                    Decoding:
-                    Data will be decoded to a .txt or .sh or .c file as per input given
+Sample Output   :   
+Encoding:
+Data will be encoded in a .bmp file created as ouput
+  
+Decoding:
+Data will be decoded to a .txt or .sh or .c file as per input given
