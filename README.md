@@ -12,6 +12,7 @@ Sample Input    :   For encoding:
                     ./a.out -e <image.bmp> <secret file.txt or .c or .sh> <steged image name.bmp (optional)>
                     For decoding:
                     ./a.out -d <steged image.bmp> <decoded file name.txt or .c or .sh (optional)>
+                    
 Sample Output   :   Encoding:
                     Data will be encoded in a .bmp file created as ouput
                     Decoding:
